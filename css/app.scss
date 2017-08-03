@@ -101,7 +101,7 @@ h3 {
   margin: 0 0 40px 0;
 }
 
-h4, h5 {
+h4, h5, h6 {
   margin: 0 0 20px 0;
 }
 
@@ -121,6 +121,23 @@ ul {
 .highlight {
   border: none;
   padding: 20px;
+}
+
+.success {
+  h3 {
+    text-align: center;
+  }
+}
+
+.content-button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
 }
 
 .custom-button {
@@ -200,6 +217,11 @@ ul {
     }
   }
 
+  &.casestudies {
+    padding: 20px 0;
+    height: auto;
+  }
+
   .row {
     padding: 20px 0;
   }
@@ -229,6 +251,26 @@ ul {
   p {
     padding-top: 10px;
     padding-bottom: 10px; 
+  }
+}
+
+.success-teaser {
+  p {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.casestudies {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.trainline {
+  h6 {
+    text-align: center;
   }
 }
 

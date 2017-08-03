@@ -47,7 +47,7 @@ i.love {
   }
 }
 
-h3, h4 {
+h3, h4, h6 {
   font-weight: lighter;
 }
 
@@ -62,6 +62,11 @@ h4 {
 h5 {
   font-size: 18px;
   font-weight: 300;
+}
+
+h6 {
+  font-size: 8px;
+  text-transform: uppercase;
 }
 
 .custom-button {
