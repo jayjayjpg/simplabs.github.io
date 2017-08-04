@@ -147,6 +147,10 @@ ul {
   padding: 5px 50px 5px 50px;
 }
 
+.blue-banner {
+  width: 100%;
+}
+
 .secondary-banner {
   width: 100%;
   padding: 20px 0;
@@ -218,8 +222,15 @@ ul {
   }
 
   &.casestudies {
-    padding: 20px 0;
     height: auto;
+  }
+
+  &.trainline {
+    height: auto;
+
+    h2 {
+      margin: 20px auto 40px auto
+    }
   }
 
   .row {
@@ -264,14 +275,77 @@ ul {
 
 .casestudies {
   font-size: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+  h6 {
+    margin: 5px 0 10px 0;
+  }
 }
 
 .trainline {
+  h4 {
+    font-size: 30px;
+  }
   h6 {
+    text-align:center;
+    margin-top: -20px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .custom-button {
+    margin-top: 70px;
+  }
+}
+
+.trainline-section {
+  h4 {
     text-align: center;
   }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.trainline-alternate {
+  h1 {
+    text-align: center;
+    font-style:italic;
+    font-size: 90px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+  }
+
+  h4 {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+  }
+
+  h6 {
+    text-align: center;
+    text-transform: none;
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#image {
+  vertical-align: middle
+}
+
+#text {
+  vertical-align: middle
 }
 
 .client-logos {

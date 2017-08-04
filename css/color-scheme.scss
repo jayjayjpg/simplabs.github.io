@@ -205,6 +205,22 @@ code {
   }
 }
 
+.blue-banner {
+  background-color: $primary-highlight-color;
+}
+
+.trainline-alternate {
+  color: $primary-background-color;
+
+  h4 {
+    color: $secondary-highlight-color;
+  }
+
+  h6 {
+    color: $secondary-background-color;
+  }
+}
+
 @media screen and (max-width: 767px) {
   #main-menu {
     .navbar-nav {
