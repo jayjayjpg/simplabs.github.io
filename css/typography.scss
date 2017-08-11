@@ -177,6 +177,32 @@ h6 {
   }
 }
 
+.case-meta {
+  font-size: 12px;
+}
+
+.case {
+  h3, h4, h5 {
+    text-align: center;
+  }
+
+  p:first-of-type {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .case-meta {
+    text-align: center;
+  }
+}
+
+.category {
+  text-align: center;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
 .workshop-meta {
   font-size: 12px;
 }

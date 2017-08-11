@@ -77,17 +77,6 @@ code {
       color: $primary-highlight-color;
     }
   }
-
-  &.case-button {
-    background-color: $primary-highlight-color;
-    color: $secondary-highlight-color;
-
-    &:hover {
-      background-color: $secondary-highlight-color;
-      border-color: $primary-highlight-color;
-      color: $primary-highlight-color;
-    }
-  }
 }
 
 #main-menu {
@@ -184,6 +173,12 @@ code {
 
   strong {
     background-color: $secondary-background-color;
+  }
+
+  &.cases {
+    a {
+      color: $secondary-highlight-color;
+    }
   }
 }
 

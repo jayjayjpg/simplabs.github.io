@@ -127,6 +127,10 @@ ul {
   h3 {
     text-align: center;
   }
+
+  h4 {
+    margin: 0;
+  }
 }
 
 .content-button {
@@ -145,10 +149,6 @@ ul {
   border-width: 2px;
   border-style: solid;
   padding: 5px 50px 5px 50px;
-}
-
-.blue-banner {
-  width: 100%;
 }
 
 .secondary-banner {
@@ -221,16 +221,8 @@ ul {
     }
   }
 
-  &.casestudies {
-    height: auto;
-  }
-
-  &.trainline {
-    height: auto;
-
-    h2 {
-      margin: 20px auto 40px auto
-    }
+  &.case {
+    padding: 40px 0;
   }
 
   .row {
@@ -273,14 +265,6 @@ ul {
   }
 }
 
-.casestudies {
-  font-size: 15px;
-
-  h6 {
-    margin: 5px 0 10px 0;
-  }
-}
-
 .trainline {
   h4 {
     font-size: 30px;
@@ -306,7 +290,6 @@ ul {
   }
 
   p {
-    font-size: 14px;
     text-align: center;
   }
 }
@@ -316,7 +299,7 @@ ul {
     text-align: center;
     font-style:italic;
     font-size: 90px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: -40px;
   }
 
@@ -331,13 +314,14 @@ ul {
     text-transform: none;
     font-size: 11px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 
 #wrapper {
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 #image {
@@ -346,6 +330,10 @@ ul {
 
 #text {
   vertical-align: middle
+
+  h4 {
+    text-align: none;
+  }
 }
 
 .client-logos {
@@ -436,7 +424,7 @@ ul {
 }
 
 #main-content {
-  .articles, .workshops {
+  .articles, .workshops, .cases {
     .separated:last-child:after {
       padding-top: 0;
       border-bottom: none;
@@ -493,6 +481,10 @@ ul {
     filter: none;
     -webkit-filter: none;
   }
+}
+
+.category {
+  margin-top: -40px;
 }
 
 #comment-section {
