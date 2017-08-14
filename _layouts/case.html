@@ -5,7 +5,7 @@
     {% include nav.html %}
 
     <div id="main-content">
-      <div class="primary-banner case">
+      <div class="primary-banner">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
@@ -14,30 +14,7 @@
           </div>
         </div>
       </div>
-
-      <div class="container" id="main-section">
-        <div class="row">
-          {% if page.category %}
-            <div class="col-md-12 col-sm-12 trainline">
-              <div class="row content-section">
-                <p class="category">
-                  <span class="category">{{page.category}}</span>
-                </p>
-                {{page.content}}
-              </div>
-            </div>
-          {% else %}
-          <div class="col-md-10 col-md-offset-1 col-sm-12">
-            <div class="row content-section article">
-              <div class="col-sm-12">
-                {{page.content}}
-              </div>
-            </div>
-          </div>
-          {% endif %}
-        </div>
-      </div>
-  
+      {{page.content}}
       {% include contact_banner.html %}
     </div>
 

@@ -248,6 +248,10 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300% 300%;
+
+  &.quote-banner {
+    background-image: none;
+  }
 }
 
 .content-teaser {
