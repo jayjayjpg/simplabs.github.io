@@ -1,7 +1,7 @@
 ---
 layout: article
 section: Blog
-title: "Powerful Aninmations with Animation Worklets"
+title: "High-Performance Animations with Animation Worklets"
 author: "Jessica Jordan"
 github-handle: jessica-jordan
 twitter-handle: jjordan_dev
